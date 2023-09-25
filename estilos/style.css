@@ -43,9 +43,13 @@ section#login {
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/porta.jpg) no-repeat center center;
     background-size: cover;
     height: 200px;
 
 }
 
+section#login > div#formulario {
+    padding: 10px;
+}
